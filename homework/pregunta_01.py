@@ -41,7 +41,7 @@ def pregunta_01():
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     def load_data():
-        df=pd.read_csv("C:\\Users\\Valentina\\Documents\\GitHub\\2024-2-LAB-08-matplotlib-dashboard-Scrat112403\\files\\input\\shipping-data.csv")
+        df=pd.read_csv("files/input/shipping-data.csv")
         return df
 
     load_data().head()
